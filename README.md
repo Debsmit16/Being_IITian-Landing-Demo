@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Being Iitian - Premier IIT-JEE Coaching Platform
 
-## Getting Started
+A modern edtech platform built with Next.js, TypeScript, and Tailwind CSS, designed specifically for IIT-JEE aspirants.
 
-First, run the development server:
+## 🎯 Project Overview
 
+**Being Iitian** is an educational technology platform that provides comprehensive coaching and resources for students preparing for IIT-JEE examinations. The platform offers:
+
+- **Personalized Tracking** - Monitor your progress and identify areas for improvement
+- **Curated Content** - Access expert-designed study materials and video lectures
+- **Strategy Builder** - Create custom study plans and schedules
+- **Safe Space** - A supportive community for JEE aspirants
+
+## ✨ Features
+
+- 🎨 Modern, responsive design based on custom Figma specifications
+- 🔐 Dual login system (Students & Mentors)
+- 📚 Premium course catalog with ratings and reviews
+- 👥 Core team showcase
+- 🎯 Feature-rich landing page
+- ⚡ Built with Next.js 16 for optimal performance
+- 🎨 Styled with Tailwind CSS 4
+- 📱 Fully responsive mobile-first design
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 20+ installed
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd biit
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Font**: [Inter](https://fonts.google.com/specimen/Inter) via next/font
+- **Linting**: ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+biit/
+├── src/
+│   ├── app/                 # Next.js App Router pages
+│   │   ├── layout.tsx      # Root layout with Navbar & Footer
+│   │   ├── page.tsx        # Homepage (landing page)
+│   │   ├── globals.css     # Global styles
+│   │   ├── about/          # About page
+│   │   ├── courses/        # Courses page
+│   │   └── contact/        # Contact page
+│   └── components/         # Reusable React components
+│       ├── Navbar.tsx      # Navigation bar
+│       └── Footer.tsx      # Footer component
+├── public/                 # Static assets
+├── .github/               # GitHub configuration
+│   └── copilot-instructions.md
+└── package.json           # Project dependencies
 
-## Deploy on Vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Design System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Color Palette
+
+- **Primary Dark**: `#031023` - Hero backgrounds, cards
+- **Primary Blue**: `#1E82E9` - CTAs, interactive elements
+- **Light Blue**: `#C7E7F9` - Backgrounds, accents
+- **Secondary Blue**: `#86B8F3` - Dividers, icons
+- **Dark Blue**: `#10549E` - Borders, dividers
+- **White**: `#FFFFFF` - Text on dark backgrounds
+- **Light Text**: `#FCFCFC` - Secondary text
+
+### Typography
+
+- **Headings**: Inter font family, bold weights
+- **Body**: Inter font family, regular & semibold weights
+- **Display 1**: 72px / 84px line height
+- **H1**: 60px / 78px line height
+- **H4**: 24px / 32px line height
+- **Paragraph**: 18px / 24px line height
+
+## 📜 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 🚀 Deployment
+
+### Deploy on Vercel
+
+The easiest way to deploy this Next.js app is through [Vercel](https://vercel.com/new):
+
+1. Push your code to GitHub
+2. Import your repository to Vercel
+3. Vercel will automatically detect Next.js and configure the build
+4. Deploy!
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📝 Development Notes
+
+- The landing page design is based on a custom Figma file
+- All colors and spacing follow the exact specifications from the design
+- Components are built with accessibility in mind
+- The project uses the latest Next.js App Router architecture
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is private and proprietary to Being Iitian.
+
+## 📧 Contact
+
+For any queries, reach out to: info@beingiitian.com
+
+---
+
+Built with ❤️ for JEE Aspirants
