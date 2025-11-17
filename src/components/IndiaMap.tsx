@@ -2,15 +2,9 @@
 
 import dynamic from 'next/dynamic';
 
-// Type declaration for react-india-states-map
-declare module 'react-india-states-map' {
-  const IndiaStatesMap: any;
-  export default IndiaStatesMap;
-}
-
 const IndiaStatesMap = dynamic(() => import('react-india-states-map'), {
   ssr: false,
-});
+}) as any;
 
 interface City {
   name: string;
